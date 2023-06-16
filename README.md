@@ -4,6 +4,24 @@ Rubiks Cube Simulator is a simulator created in XCode, using the OpenGL API for 
 
 Rubiks Cube Simulator is a simulator where users are able to practice solving a 3x3 rubiks cube virtually. Lights, animation, materials, particles, and more were used to create this Simulation. As of now, the logic to solve the cube (Rotate the faces of the cube) isn't implemented. This is a side project and I will be adding the logic to solve the cube within the next 2-3 months. Happy you're here for the journey!
 
+The game is made with OpenGL engine. OpenGL is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics. The API is typically used to interact with a graphics processing unit, to achieve hardware-accelerated rendering.
+
+Using OpenGl, a 3d model of the Rubiks cube was created. You are able to rotate the world to view each face of the cube. Upon solving the cube, fireworks will automatically display once the last face match.
+
+# Instructions to play the game.
+
+Interactions:
+
+DEFAULT KEYS: 1 : Start the game (changes scenary from launch mode to game mode) 2 : Celebration (fireworks) appear once this button is clicked. 3: Closes the game L and l (lowercase L) : turns spotlight on and off. (it starts with all spotlights being on)
+
+Special KEYS: ↑ : moves the world up to view under the the cube ↓ : moves the world down to view the top of the cube →: moves the world right to view the right side of the cube ←: moves the world left to view the left side of the cube
+
+MOUSE CONTROL:
+
+LEFT CLICKS: CLICKING START ON VIEWPORT 1 (LEFT SIDE) the game (changes scenary from launch mode to game mode) CLICKING SOLVED ON VIEWPORT 1 (LEFT SIDE) Celebration (fireworks) appear once this button is clicked. CLICKING EXIT ON VIEWPORT 1 (LEFT SIDE) Closes the game
+
+RIGHT CLICKS: MENU: Start Solved Load Screen Quit Game
+
 # Language 
 
 The language used to build this project was C++.
